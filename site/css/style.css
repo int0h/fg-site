@@ -1,0 +1,140 @@
+.editor{	
+    width: 100%;
+    justify-content: space-between;
+    border: solid 1px #aaa;
+    margin: 5px;
+}
+
+.col2 {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col2 > div {
+    /* width: 100%; */
+    /* max-width: 400px; */
+    margin: 5px;
+    min-width: 200px;
+    flex-grow: 1;
+}
+
+.editor-wrap h4{
+	padding-left: 15px;
+	margin: 5px;
+}
+
+#result {
+	    border: solid 1px #aaa;
+    /* width: 100%; */
+    min-height: 200px;
+    /* margin: 5px; */
+    /* margin-left: 10px; */
+}
+
+body {
+    width: 80%;
+    margin: 0px auto;
+    background: #fff;
+    padding: 15px;
+    min-width: 320px;
+}
+
+html {
+	background: #ECECEC;
+	font-family: helvetica;
+}
+
+.btn{
+    color: #fff;
+    background: #3a4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: initial;
+    -webkit-user-select: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+.btn:hover{
+	background: #6c7;
+}
+
+.btn:active{
+	background: #172;
+}
+
+#state svg{
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    margin-left: 5px;
+}
+
+#state svg.ok{
+    fill: #35A535;
+}
+
+#state svg.err{
+    fill: #A53535;
+}
+
+#state{
+    display: inline;
+}
+
+.data-editor h4{
+}
+
+#result{
+    padding: 15px;
+}
+
+.table{
+    border: solid 1px #aaa;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    margin: 0px auto;
+    width: 95%;
+}
+
+.table td, .table th {
+    padding: 5px 10px;
+    border: solid 1px #ddd;
+    /* margin: 0px; */
+}
+
+.table thead {
+    background: #eee;
+}
+
+.tag-box{
+    display: flex;
+    align-items: center;
+}
+
+.tag-wrapper{
+    display: flex;
+    cursor: pointer;
+}
+
+.tag-body{
+    padding: 5px 10px;
+    background: #FCA;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.tag-tail{
+    width: 20px;
+    background-size: contain;
+    background: url('data:image/svg+xml;utf8,<svg viewBox="0, 0, 20, 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"> <g> <path style="fill:#ffccaa;fill-opacity:1" d="M 0,0 L 10,10 L 0,20, z"></path> </g> </svg>');
+}
+
+.add-tag{
+    background-image: url('/images/plus.svg');
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
