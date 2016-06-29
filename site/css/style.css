@@ -1,3 +1,12 @@
+div.choseExmpBox{
+    display: flex;
+}
+
+.code{
+    background: #eee;
+    padding: 15px;
+}
+
 .editor{	
     width: 100%;
     justify-content: space-between;
